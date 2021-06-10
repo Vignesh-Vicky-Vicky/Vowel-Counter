@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(https://files.123freevectors.com/wp-content/original/152369-black-random-alphabet-background.jpg);
+    background-size: 100%;
+}
+#empty{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    background-color: black;
+    text-align: center;
+    width: 700px;
+    min-height: 750px;
+    padding: 50px;
+    border:1px solid white;
+    border-radius: 20px;
+    box-shadow: 15px 15px 30px 10px rgba(0, 0, 0, 0.397);
+    outline-offset: 20px;
+}
+
+#container .display-1{
+    margin-bottom: 50px;
+    border-bottom: 1px solid #0cb7d94d;
+}
+#container #inputvalue{
+    width: 500px;
+    border: 2px solid  #625f5f;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 22px;
+    outline: none;
+    margin-top: 30px;
+}
+#container #inputvalue::placeholder{
+    font-size: 18px;
+}
+
+#btngroup{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+#btngroup button{
+    box-shadow: none;
+    width: 120px;
+    border-radius: 22px;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+#btngroup button:nth-child(1):active{
+    background-color: white;
+    color: teal;
+}
+
+#btngroup button:nth-child(2):active{
+    background-color: white;
+    color: rgb(255, 20, 31);
+}
+
+#output{
+    color: white;
+    margin-top: 110px;
+    font-size:80px;
+    padding: 20px;
+    background-color: #758283;
+    width: 350px;
+    height: 150px;
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 2px rgb(73, 73, 72);
+}
