@@ -10,8 +10,6 @@ let count = 0;
 
 button.addEventListener('click', () => {
     
-    count = 0;
-
     let input = inputvalue.value;
     let vowels = 'aeiouAEIOU';
 
